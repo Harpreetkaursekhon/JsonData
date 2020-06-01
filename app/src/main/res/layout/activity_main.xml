@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter id"
+        android:textStyle="bold"
+       />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:textStyle="bold"
+        />
+    <EditText
+    android:id="@+id/ed3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter designation"
+    android:textStyle="bold"
+    />
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter department"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="write JSON"
+        android:onClick="writeJson"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="read JSON"
+        android:onClick="readJson"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
